@@ -59,9 +59,8 @@ The upstream projects we use in Silex are all listed in [Silex meta package](htt
 ```
 mkdir ~/silex
 cd ~/silex 
-git clone 
-
-
-
+git clone https://github.com/NonneTrapuE/Silex_fedora.git
+docker build -t fedora_silex .
+docker run -t -e ENABLE_FS=true -e FS_ROOT=true -p 6805:6805 fedora_silex 
 ``` 
 
