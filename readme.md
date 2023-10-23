@@ -54,3 +54,14 @@ During your development, you may need to rebase your work on the latest version 
 
 The upstream projects we use in Silex are all listed in [Silex meta package](https://github.com/silexlabs/silex-meta)
 
+# Dockerfile is modified from original repo
+
+```
+mkdir ~/silex
+cd ~/silex 
+git clone 
+
+
+
+``` 
+
